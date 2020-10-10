@@ -1,3 +1,9 @@
+/* --tea-green: #c5ebc3ff;
+--laurel-green: #b7c8b5ff;
+--lilac-luster: #a790a5ff;
+--mauve-taupe: #875c74ff;
+--eggplant: #54414eff; */
+
 .film-list{ 
     display: flex; 
     width: 90%;
@@ -9,10 +15,10 @@
 }
 
 .card{
-    box-shadow: 5px 5px 1px lightblue;
+    box-shadow: 5px 5px 1px #a790a5ff;
     border-radius: 2px;
     border-style: solid;
-    border-color: navy;
+    border-color: #875c74ff;
     border-width: 0.5px;
     margin-top: 10px;
     
@@ -26,5 +32,10 @@
     justify-content: space-between;
     text-align: center;
     list-style-type: none;
-    background-color: plum;
+    border-style: solid;
+    border-color: #b7c8b5ff;
+}
+
+* {
+    color: #54414eff;
 }
